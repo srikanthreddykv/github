@@ -31,12 +31,12 @@
     </developers>
     <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>releases</id>
             <name>Internal Releases</name>
             <url>http://10.0.0.237:8082/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>snapshots</id>
             <name>Internal Snapshot Releases</name>
             <url>http://10.0.0.237:8082/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
